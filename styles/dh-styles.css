@@ -1,0 +1,112 @@
+fieldset {
+  background: white;
+  margin: 1em auto;
+  border: 1px solid grey;
+  border-radius: 4px;
+}
+
+body {
+  background: whitesmoke;
+}
+
+section {
+  background: white;
+}
+
+.themeOptions {
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+}
+
+.flexVertical {
+  display: flex;
+  flex-direction: column;
+  flex-wrap: wrap;
+}
+
+.borderSizes,
+.colors,
+.fonts {
+  margin: 0 0.5em;
+  width: 31%;
+}
+
+@media (max-width: 630px) {
+  .borderSizes,
+  .colors,
+  .fonts {
+    background: white;
+    margin: 1em auto;
+    border: 1px solid grey;
+    border-radius: 4px;
+    width: 100%;
+  }
+}
+
+[id^="btnTheme"],
+[id^="btnFont"] {
+  margin-bottom: 1em;
+}
+
+.pixelsRadios {
+  margin-bottom: 2.33em;
+}
+
+h2 {
+  font-size: 1.3em;
+  letter-spacing: 0.05ch;
+  margin-top: 0;
+  margin-bottom: 0.25em;
+}
+
+p {
+  margin: 0;
+}
+
+.flexVertical button:last-child {
+  margin-bottom: 0;
+}
+
+.flexVertical label:last-child {
+  margin-bottom: 1.3em;
+}
+
+/* BACKGROUND COLORS */
+.score.bkgd-red {
+  background: darksalmon;
+}
+.score.bkgd-purple {
+  background: mediumorchid;
+}
+.score.bkgd-blue {
+  background: lightskyblue;
+}
+.score.bkgd-green {
+  background: darkseagreen;
+}
+
+/* FONT SIZES */
+.score.fontSize-extraSmall {
+  font-size: x-small;
+}
+.score.fontSize-small {
+  font-size: x-small;
+}
+.score.fontSize-large {
+  font-size: x-large;
+}
+.score.fontSize-extraLarge {
+  font-size: x-large;
+}
+
+/* BORDER SIZES */
+.score.borderSize-one {
+  border: 1px solid rgb(255, 119, 119);
+}
+.score.borderSize-three {
+  border: 3px solid rgb(255, 119, 119);
+}
+.score.borderSize-five {
+  border: 5px solid rgb(255, 119, 119);
+}

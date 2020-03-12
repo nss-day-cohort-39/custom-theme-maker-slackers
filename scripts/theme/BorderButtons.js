@@ -1,36 +1,24 @@
 export const BorderButtons = () => {
   return `
-        <article class="borderSizes">
-            <fieldset>
-                <legend>Border Sizes</legend>
+  <article class="borderSizes">
+    <fieldset>
+    <legend>Border Sizes</legend>
 
-                <label for="onepixel">1px</label>
-                <input type="radio" name="pixelsize" value="onepixel" />
+    <div class="flexVertical">
+      <label for="onepixel" class="pixelsRadios">1px
+        <input type="radio" name="pixelsize" value="onepixel" />
+      </label>
 
-                <label for="threepixels">3px</label>
-                <input type="radio" name="pixelsize" value="threepixels" />
+      <label for="threepixels" class="pixelsRadios">3px
+        <input type="radio" name="pixelsize" value="threepixels" />
+      </label>
 
-                <label for="fivepixels">5px</label>
-                <input type="radio" name="pixelsize" value="fivepixels" />
-            </fieldset>
-        </article>
-    `
+      <label for="fivepixels" class="pixelsRadios">5px
+        <input type="radio" name="pixelsize" value="fivepixels" />
+      </label>
+
+    </div>
+    </fieldset>
+  </article>
+  `
 }
-
-// // Create and dispatch a custom event for border change buttons
-// const contentTarget = document.querySelector(".borderSizes")
-// const eventHub = document.querySelector(".container")
-
-// contentTarget.addEventListener("click", clickEvent => {
-//   if (clickEvent.target.value === "onepixel") {
-//     const theCrimeThatWasChosen = changeEvent.target.value
-//     debugger
-//     const pixelChosenEvent = new CustomEvent("pixelChosen", {
-//       detail: {
-//         chosenPixel: thePixelThatWasChosen,
-//       },
-//     })
-
-//     eventHub.dispatchEvent(pixelChosenEvent)
-//   }
-// })
