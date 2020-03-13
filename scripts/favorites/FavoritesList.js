@@ -1,6 +1,7 @@
 import { useFavorites } from "./FavoritesProvider.js"
 import { FavoriteItem } from "./FavoriteItem.js"
 
+
 export const FavoritesList = () => {
     const favoriteItems = useFavorites()
     return render(favoriteItems)
