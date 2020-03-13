@@ -8,4 +8,4 @@ import { Dashboard } from "./Dashboard.js"
 */
 
 
-document.querySelector("#container").innerHTML = Dashboard()
+document.querySelector(".container").innerHTML = Dashboard()

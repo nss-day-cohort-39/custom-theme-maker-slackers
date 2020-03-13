@@ -1,4 +1,4 @@
-const eventHub = document.querySelector("#container")
+const eventHub = document.querySelector(".container")
 
 export const FontButtons = () => {
   return `
@@ -7,10 +7,10 @@ export const FontButtons = () => {
         <legend>Font Sizes</legend>
 
         <div class="flexVertical">
-          <button id="btnFont--xsmall">Extra Small</button>
-          <button id="btnFont--small">Small</button>
-          <button id="btnFont--large">Large</button>
-          <button id="btnFont--xlarge">Extra Large</button>
+          <button id="fs-xSmall">Extra Small</button>
+          <button id="fs-small">Small</button>
+          <button id="fs-large">Large</button>
+          <button id="fs-xLarge">Extra Large</button>
         </div>
 
       </fieldset>
@@ -20,7 +20,7 @@ export const FontButtons = () => {
 // Listen for browser generated click event in this component
 eventHub.addEventListener("click", clickEvent => {
 
-  if (clickEvent.target.id.startsWith("btnFont")) {
+  if (clickEvent.target.id.startsWith("fs-")) {
 
       // Get the chosen font
       const chosenFont = clickEvent.target.id
