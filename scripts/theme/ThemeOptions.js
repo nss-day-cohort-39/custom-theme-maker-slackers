@@ -12,7 +12,9 @@ export const ThemeOptions = () => {
   `
 }
 
-const eventHub = document.querySelector("#container")
+
+const eventHub = document.querySelector(".container")
+
 
 eventHub.addEventListener("colorSelected", event => {
   const color = event.detail.color

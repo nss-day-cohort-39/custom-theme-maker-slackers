@@ -1,4 +1,4 @@
-const eventHub = document.querySelector("#container")
+const eventHub = document.querySelector(".container")
 export const ColorButtons = () => {
   return `
   <article class="colors">
