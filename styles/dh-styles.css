@@ -74,22 +74,26 @@ p {
 
 
 /* BACKGROUND COLORS */
-/* BACKGROUND COLORS */
+
 .red .score,
 .red .newsItem,
 .red .favoriteItem {
   background: rgb(255, 149, 149);
 }
+
+
 .purple .score,
 .purple .newsItem,
 .purple .favoriteItem {
   background: rgb(235, 156, 255);
 }
+
 .blue .score,
 .blue .newsItem,
 .blue .favoriteItem {
   background: rgb(174, 232, 255);
 }
+
 .green .score,
 .green .newsItem,
 .green .favoriteItem {
@@ -101,6 +105,7 @@ p {
 .fs-xSmall .favoriteItem {
   font-size: x-small;
 }
+
 .fs-small .score,
 .fs-small .newsItem,
 .fs-small .favoriteItem {
@@ -111,6 +116,7 @@ p {
 .fs-large .favoriteItem {
   font-size: large;
 }
+
 .fs-xLarge .score,
 .fs-xLarge .newsItem,
 .fs-xLarge .favoriteItem {
