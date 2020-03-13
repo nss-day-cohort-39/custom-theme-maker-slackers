@@ -1,7 +1,5 @@
 import { Dashboard } from "./Dashboard.js"
 
-
-
 /*
     1. Sort scores by date
     2. Display scores in YY/MM/DD format
@@ -9,3 +7,5 @@ import { Dashboard } from "./Dashboard.js"
 
 
 document.querySelector(".container").innerHTML = Dashboard()
+
+
