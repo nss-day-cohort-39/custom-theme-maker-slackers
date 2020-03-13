@@ -44,7 +44,11 @@ section {
   }
 }
 
-[id^="btnTheme"],
+[id^="btnTheme"] {
+  margin-bottom: 1em;
+}
+
+[id^="fs-"],
 [id^="btnFont"] {
   margin-bottom: 1em;
 }
@@ -72,7 +76,6 @@ p {
   margin-bottom: 1.3em;
 }
 
-
 /* BACKGROUND COLORS */
 
 .red .score,
@@ -80,7 +83,6 @@ p {
 .red .favoriteItem {
   background: rgb(255, 149, 149);
 }
-
 
 .purple .score,
 .purple .newsItem,
