@@ -72,6 +72,7 @@ p {
   margin-bottom: 1.3em;
 }
 
+
 /* BACKGROUND COLORS */
 
 .red .score,
@@ -79,6 +80,7 @@ p {
 .red .favoriteItem {
   background: rgb(255, 149, 149);
 }
+
 
 .purple .score,
 .purple .newsItem,
@@ -97,7 +99,6 @@ p {
 .green .favoriteItem {
   background: rgb(188, 233, 188);
 }
-
 /* FONT SIZES */
 .fs-xSmall .score,
 .fs-xSmall .newsItem,
@@ -108,13 +109,12 @@ p {
 .fs-small .score,
 .fs-small .newsItem,
 .fs-small .favoriteItem {
-  font-size: x-small;
+  font-size: small;
 }
-
 .fs-large .score,
 .fs-large .newsItem,
 .fs-large .favoriteItem {
-  font-size: x-large;
+  font-size: large;
 }
 
 .fs-xLarge .score,
@@ -122,7 +122,6 @@ p {
 .fs-xLarge .favoriteItem {
   font-size: x-large;
 }
-
 /* BORDER SIZES */
 .border-one .score,
 .border-one .newsItem,
