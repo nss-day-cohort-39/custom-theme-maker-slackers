@@ -21,6 +21,12 @@ eventHub.addEventListener("borderChosen", event => {
     eventHub.classList += " " + (border)
 })
 
+eventHub.addEventListener("colorSelected", event => {
+    const color = event.detail.color
+
+    eventHub.classList = ["container"]
+    eventHub.classList += " " + (color)
+})
 
 export const Dashboard = () => {
     return `
