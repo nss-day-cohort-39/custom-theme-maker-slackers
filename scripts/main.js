@@ -5,4 +5,6 @@ import { Dashboard } from "./Dashboard.js"
     2. Display scores in YY/MM/DD format
 */
 
+
 document.querySelector(".container").innerHTML = Dashboard()
+
