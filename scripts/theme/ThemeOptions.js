@@ -12,7 +12,7 @@ export const ThemeOptions = () => {
   `
 }
 
-// >>>>>>>>>>>>>>>>>>>
+
 const eventHub = document.querySelector("#container")
 
 eventHub.addEventListener("colorSelected", event => {
@@ -21,3 +21,11 @@ eventHub.addEventListener("colorSelected", event => {
   eventHub.classList = []
   eventHub.classList.add(color)
 })
+
+eventHub.addEventListener("borderChosen", event => {
+    const color = event.detail.border
+
+    eventHub.classList = []
+    eventHub.classList.add(border)
+})
+
