@@ -72,6 +72,13 @@ p {
   margin-bottom: 1.3em;
 }
 
+/* >>>>>>>>>>>>>>>>>>>> */
+
+.container .red .score {
+  background: darksalmon;
+}
+
+/* BACKGROUND COLORS */
 /* BACKGROUND COLORS */
 .score.bkgd-red,
 .newsItem.bkgd-red,
