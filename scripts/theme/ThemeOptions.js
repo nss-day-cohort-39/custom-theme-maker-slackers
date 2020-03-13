@@ -11,3 +11,12 @@ export const ThemeOptions = () => {
         </article>
     `
 }
+
+const eventHub = document.querySelector("#container")
+
+eventHub.addEventListener("borderChosen", event => {
+    const color = event.detail.color
+
+    contentTarget.classList = []
+    contentTarget.classList.add(color)
+})
