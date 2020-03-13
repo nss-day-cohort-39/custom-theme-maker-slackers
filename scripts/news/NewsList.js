@@ -8,7 +8,7 @@ export const NewsList = () => {
 
 const render = newsCollection => {
     return `
-        <article class="container__panel scores">
+        <article class="container__panel newsItems">
             ${newsCollection.map(news => NewsItem(news)).join("")}
         </article>
     `
